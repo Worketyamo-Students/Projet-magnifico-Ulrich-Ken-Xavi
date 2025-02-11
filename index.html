@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <header class="flex justify-between m-4">
+        <p class="text-[30px] font-bold font-Roboto">magnifico</p>
+        <nav class="hidden flex w-3/5 gap-4 justify-center">
+            <a class="flex items-center" href="Product">Product <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Solutons">Solutons <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Services">Services <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Help Center">Help Center <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Pricing">Pricing</a>
+        </nav>
+        <div class="hidden flex gap-2">
+            <button class="w-20">Log in</button> 
+            <button class="flex items-center bg-blue-500 w-36 pl-5 text-sm/5 rounded-lg">Sign Up Free <img src="/image/arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        </div>
+        <img class="md:hidden" src="./image/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu">
+    </header>
 </body>
 </html>
