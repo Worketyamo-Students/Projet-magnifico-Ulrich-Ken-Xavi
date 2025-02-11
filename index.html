@@ -7,24 +7,26 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <section class="m-5">
-        <div class="flex flex-col gap-8">
-            <h1 class="w-full font-bold text-5xl">Teach students worldwide</h1>
-            <p class="font-normal text-xl">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
-            <form class="flex h-14 gap-2" action="traitement" method="get">
-                <div class="flex w-full border rounded-xl">
-                    <img class="hidden" src="/Assets/Images/mail.svg" alt="">
-                    <input class="w-full pl-4 rounded-xl" type="email" placeholder="Enter work email">
+    <section class="m-5 md:flex md:items-center">
+        <div class="flex flex-col gap-8 md:flex-1 md:mx-12 md:mt-8">
+            <h1 class="font-bold text-5xl md:hidden">Teach students worldwide</h1>
+            <h1 class="w-4/5 font-bold hidden md:inline text-6xl">Team Projetcs, done well</h1>
+            <p class="font-normal text-xl md:hidden">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
+            <p class="font-normal text-xl hidden md:inline">The only platform that gives your team all the tools needed to work together on their awesome projects. </p>
+            <form class="flex h-14 gap-2 md:gap-4" action="traitement" method="get">
+                <div class="flex w-full border rounded-xl md:pl-2 md:items-center md:flex-2">
+                    <div class="hidden md:block" ><img src="/Assets/Images/mail.svg" alt=""></div>
+                    <input class="w-full h-full pl-4 rounded-xl outline-none" type="email" placeholder="Enter work email">
                 </div>
-                <button class="flex items-center justify-around w-full border bg-blue-500 rounded-xl" type="submit">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button> 
+                <button class="flex items-center justify-around w-full border bg-blue-500 rounded-xl md:flex-1" type="submit">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button> 
                 <!-- couleur du texte et background à ajouter sur ce bouton -->
             </form>
-            <div class="flex flex-col gap-3 bg-gray-200 p-3">
-                <div class="flex justify-around">
+            <div class="flex flex-col gap-3 bg-gray-200 p-3 md:flex-row md:justify-between">
+                <div class="flex justify-around md:flex-1">
                     <img src="/Assets/Images/Shell.svg" alt="Shells">
                     <img src="/Assets/Images/smartfinder.svg " alt="smartfinder">
                 </div>
-                <div class="flex justify-around">
+                <div class="flex justify-around md:flex-1">
                     <img src="/Assets/Images/artvenue.svg" alt="adventure">
                     <img src="/Assets/Images/waves.svg" alt="waves">
                 </div>
