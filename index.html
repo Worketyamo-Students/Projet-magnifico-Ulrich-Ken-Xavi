@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <section class="m-5">
+        <div class="flex flex-col gap-8">
+            <h1 class="w-full font-bold text-5xl">Teach students worldwide</h1>
+            <p class="font-normal text-xl">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
+            <form class="flex h-14 gap-2" action="traitement" method="get">
+                <div class="flex w-full border rounded-xl">
+                    <img class="hidden" src="/Assets/Images/mail.svg" alt="">
+                    <input class="w-full pl-4 rounded-xl" type="email" placeholder="Enter work email">
+                </div>
+                <button class="flex items-center justify-around w-full border bg-blue-500 rounded-xl" type="submit">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button> 
+                <!-- couleur du texte et background à ajouter sur ce bouton -->
+            </form>
+            <div class="flex flex-col gap-3 bg-gray-200 p-3">
+                <div class="flex justify-around">
+                    <img src="/Assets/Images/Shell.svg" alt="Shells">
+                    <img src="/Assets/Images/smartfinder.svg " alt="smartfinder">
+                </div>
+                <div class="flex justify-around">
+                    <img src="/Assets/Images/artvenue.svg" alt="adventure">
+                    <img src="/Assets/Images/waves.svg" alt="waves">
+                </div>
+            </div>    
+        </div>
+        <div class="mt-12"><img src="/Assets/Images/team_project.svg" alt=""></div>
+    </section>
 </body>
 </html>
