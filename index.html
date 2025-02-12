@@ -15,24 +15,27 @@
             --color-bord: #CBD5E1;
             --font-roboto: "Roboto";
             --color-linear: #581C87BF;
-
         }
     </style>
 </head>
 <body class="font-roboto">
+    <!-- debut de la première section -->
     <section class="m-5 md:flex md:mx-12 md:gap-8 md:items-center">
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
             <h1 class="font-bold text-5xl md:hidden text-noir">Teach students worldwide</h1>
             <h1 class="w-4/5 font-bold hidden md:inline text-6xl text-noir">Team Projetcs, done well</h1>
             <p class="font-normal text-xl md:hidden text-noir">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
             <p class="font-normal text-xl hidden md:inline text-noir">The only platform that gives your team all the tools needed to work together on their awesome projects. </p>
+            <!-- Début du formulaire de connexion -->
             <form class="flex h-14 gap-2 md:gap-4" action="traitement" method="get">
                 <div class="flex w-full border border-bord rounded-xl md:pl-2 md:items-center md:flex-2">
+                    <!-- champ pour l'email -->
                     <div class="hidden md:block" ><img src="/Assets/Images/mail.svg" alt=""></div>
                     <input class="w-full h-full pl-4 rounded-xl outline-none" type="email" placeholder="Enter work email">
                 </div>
                 <button class="flex items-center justify-center w-full bg-bleu rounded-xl md:flex-1 text-blanc" type="submit">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button> 
             </form>
+            <!-- Fin du formulaire de connexion -->
             <div class="flex flex-col gap-3 bg-gris p-3 md:flex-row md:justify-between">
                 <div class="flex justify-around md:flex-1">
                     <img src="/Assets/Images/Shell.svg" alt="Shells">
@@ -45,32 +48,34 @@
             </div>    
         </div>
         <div class="mt-12"><img src="/Assets/Images/team_project.svg" alt=""></div>
-    </section>
+    </section> <!--Fin de la premiere section-->
+   <!---->
     <section class="m-5 pt-16 md:flex md:flex-row-reverse md:mx-12 md:gap-10 md:items-center">
-        <!-- couleurs à arranger et font familly -->
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
             <h1 class="w-4/5 font-bold text-5xl md:text-6xl text-noir">Enjoy your time working</h1>
             <p class="font-normal text-xl text-noir">Etiam condimentum duis molestie malesuada volutpat pellentesque sed. Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis massa tellus imperdiet aenean nulla id.</p>
             <div class="flex text-base gap-2 md:mt-8 text-bleu"><a href="#">See how it helped others</a><img src="/Assets/Images/fleche_bleu.svg" alt="#"></div>
         </div>
         <div class="mt-12 md:flex-1"><img src="/Assets/Images/time_working.svg" alt=""></div>
-    </section>
+    </section> <!--Fin de la 2e section-->
+    <!--Debut de la 3e section-->
     <section class="m-5 pt-16 md:flex md:mx-12 md:gap-8 md:items-center">
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
-            <h1 class="w-full font-bold text-5xl text-noir md:text-6xl">Get all the tools your team needs</h1>
+            <h1 class="font-bold text-5xl text-noir md:text-6xl">Get all the tools your team needs</h1>
             <p class="font-normal text-xl text-noir">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
             <div class="hidden md:block md:flex text-bleu gap-2"><a href="#">Check the tools </a><img src="/Assets/Images/fleche_bleu.svg" alt="#"></div>
         </div>
         <div class="mt-12 md:flex-1 flex justify-center"><img src="./Assets/Images/tools.svg" alt=""></div>
-    </section>
-    <section class="h-[430px] md:h-[490px] bg-cover bg-[url(/Assets/Images/mongolfière.jpeg)]">
-        <div class="h-full bg-linear pt-10 md:py-18 md:flex md:justify-end md:pr-10">
-            <div class="flex flex-col gap-4 mx-8 md:justify-around md:w-9/20">
-                <h1 class="w-full font-bold text-5xl text-blanc md:text-6xl">Problems come and get solved with ease</h1>
+    </section> <!--Fin de la 3e section-->
+    <!--Debut de la 4e section-->
+    <section class="h-[430px] md:h-[490px] bg-cover bg-[url(/Assets/Images/mongolfière.jpeg)] md:mx-14 md:rounded-4xl">
+        <div class="h-full bg-linear pt-10 md:py-18 md:flex md:justify-end md:rounded-4xl">
+            <div class="flex flex-col gap-4 mx-8 md:justify-around md:w-1/2">
+                <h1 class="font-bold text-5xl text-blanc md:text-6xl">Problems come and get solved with ease</h1>
                 <p class="font-normal text-xl text-blanc">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
                 <div class="flex text-blanc gap-2 font-medium mt-4"><a href="#">Improve workflow</a><img src="/Assets/Images/fleche.svg" alt="arrow"> </div>
             </div>
         </div>
-    </section>
+    </section> <!--Fin de la 4e section-->
 </body>
 </html>
