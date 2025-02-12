@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
     <!-- section-five-landing page -->
-<div class="flex flex-col p-6 md:bg-red-400 md:flex-row md:gap-20">
-    <div class="gap-8 flex flex-col gap-2 md:gap-12">
-        <h2 class="flex items-center justify-center text-4xl font-bold md:text-5xl">Improve workflow</h2>
-        <table >
-            <tr class="text-base md:text-base ">
-                <th class="border-collapse border border-gray-400">Research</th>
-                <th class="border-collapse border border-gray-400">Plan</th>
-                <th class="border-collapse border border-gray-400">Design</th>
-            </tr>
-        </table>
-        <hp class="text-base m:text-lg md:text-slate-600">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque <br> pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis <br> at amet. Purus malesuada placerat arcu at enim elit in accumsan.</hp>
-    <button class="flex gap-4 pb-4 text-sky-600 md:text-sky-600 md:text-base " >Check the tools <img src="./Assets/Images/fleche_bleu.svg" alt=""></button>
+    <div class="flex flex-col p-6 md:flex-row md:items-center">
+        <div class="gap-8 flex flex-col md:gap-10 md:flex-1 md:px-8">
+            <h2 class="text-4xl font-bold md:text-5xl">Improve workflow</h2>
+            <div class="flex">
+                <button class="flex-1 border py-2 bg-gray-400">research</button>
+                <button class="flex-1 border">plan</button>
+                <button class="flex-1 border">design</button>
+            </div>
+            <hp class="text-base m:text-lg md:text-slate-600">Egestas fringilla aliquam leo, habitasse arcu varius lorem
+                elit. Neque <br> pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis <br> at
+                amet. Purus malesuada placerat arcu at enim elit in accumsan.</hp>
+            <a class="flex gap-4 pb-4 text-sky-600 md:text-sky-600 md:text-base ">Check the tools <img src="./Assets/Images/fleche_bleu.svg" alt=""></a>
+        </div>
+        <div class="md:flex-1 flex justify-center">
+            <img src="./Assets/Images/improve_workflow.svg" alt="improve_workflow">
+        </div>
     </div>
 
-    <div>
-<img src="./Assets/Images/improve_workflow.svg" alt="">
+    <!-- section-six-landing page -->
+    <div class="h-[380px] bg-gradient-to-r from-[#312E81] via-[#1E40AF] via-[#1E3A8A] to-[#701A75] md:rounded-3xl mt-8  px-4 md:mx-12 flex flex-col md:flex md:flex-col items-center justify-center gap-8">
+            <div class="flex flex-col items-center md:flex-row"><h2 class="text-4xl font-bold text-white">Join the</h2> <h2 class="text-4xl font-bold text-white">community today</h2></div>
+            <p class="text-base text-white">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.
+                Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis <br> ac turpis at amet. Purus
+                malesuada placerat arcu at enim elit in accumsan.</p>
+            <button class="flex items-center justify-center gap-2 bg-blue-900 text-white w-3xs h-[58px]">Sign Up Free<img src="./Assets/Images/fleche.svg" alt="arrow"></button>
     </div>
-</div>
 
-<!-- section-six-landing page -->
- <div class="bg-green-400 md:px-6 pt-8 flex flex-col">
-    <div class="h-[380px] bg-gradient-to-r from-[#312E81] via-[#1E40AF] via-[#1E3A8A] to-[#701A75] md:rounded-3xl relative">
- </div>
 
- <div class="flex flex-col justify-center w-xs h-2xs gap-4 md:flex md:flex-col md:items-center ">
-    <h2 class="flex items-center text-3xl font-bold text-white">Join the community today</h2>
-    <p class="text-base w-sm items-center">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis <br> ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
-    <button class="flex items-center gap-2 bg-blue-900 "> 
-        <p class="text-white">Sign Up Free</p>
-        <img src="./Assets/Images/fleche.svg" alt="">
-    </button>
- </div>
- </div>
-
-    
 </body>
+
 </html>
