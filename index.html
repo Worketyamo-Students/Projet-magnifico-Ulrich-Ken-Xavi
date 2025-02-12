@@ -21,21 +21,23 @@
 </head>
   
 <body class="font-roboto">
+    <!-- Debut du header -->
   <header class="flex justify-between m-4">
         <p class="text-[30px] font-bold font-Roboto">magnifico</p>
+        <!-- Nav-barre -->
         <nav class="hidden md:block md:flex md:w-3/5 md:gap-6 md:justify-center">
             <a class="flex items-center gap-2" href="#">Product <img src="/Assets/Images/stat_minus.svg" alt=""></a>
             <a class="flex items-center gap-2" href="#">Solutons <img src="/Assets/Images/stat_minus.svg" alt=""></a>
             <a class="flex items-center gap-2" href="#">Services <img src="/Assets/Images/stat_minus.svg" alt=""></a>
             <a class="flex items-center gap-2" href="#">Help Center <img src="/Assets/Images/stat_minus.svg" alt=""></a>
-            <a class="flex items-center gap-2" href="#">Pricing <img src="/Assets/Images/stat_minus.svg" alt=""></a>
+            <a class="flex items-center gap-2" href="#">Pricing</a>
         </nav>
-        <div class="hidden md:block md:flex md:gap-2">
-            <button class="w-20">Log in</button> 
-            <button class="flex items-center bg-blue-500 w-36 pl-5 text-sm/5 rounded-lg">Sign Up Free <img src="/image/arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        <div class="hidden md:block md:flex md:gap-2"> <!--Les buttons-->
+            <button class="w-20 text-bleu hover:border hover:cursor-pointer hover:bg-gray-100">Log in</button> 
+            <button class="flex justify-center items-center bg-bleu w-40 gap-2 pl-5 text-sm/5 rounded-lg text-blanc hover:cursor-pointer hover:bg-blue-800">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button>
         </div>
-        <img class="md:hidden" src="/Assets/Images/menu_barre.svg" alt="Menu">
-    </header>
+        <a href="#"><img class="md:hidden" src="/Assets/Images/menu_barre.svg" alt="Menu"></a>
+    </header> <!-- Fin du header -->
     <!-- debut de la première section -->
     <section class="mx-5 mt-10 md:flex md:mx-12 md:gap-8 md:items-center">
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
@@ -50,7 +52,7 @@
                     <div class="hidden md:block" ><img src="/Assets/Images/mail.svg" alt=""></div>
                     <input class="w-full h-full pl-4 rounded-xl outline-none" type="email" placeholder="Enter work email">
                 </div>
-                <button class="flex items-center justify-center w-full bg-bleu rounded-xl md:flex-1 text-blanc" type="submit">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button> 
+                <button class="flex items-center justify-center w-full bg-bleu rounded-xl md:flex-1 text-blanc hover:cursor-pointer hover:bg-blue-800" type="submit">Sign Up Free <img src="/Assets/Images/fleche.svg" alt=""></button> 
             </form>
             <!-- Fin du formulaire de connexion -->
             <div class="flex flex-col gap-3 bg-gris p-3 md:flex-row md:justify-between">
@@ -66,6 +68,7 @@
         </div>
         <div class="mt-12"><img src="/Assets/Images/team_project.svg" alt=""></div>
     </section> <!--Fin de la premiere section -->
+    <!-- Debut de la 2e section -->
     <section class="m-5 pt-16 md:flex md:flex-row-reverse md:mx-12 md:gap-10 md:items-center">
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
             <h1 class="w-4/5 font-bold text-5xl md:text-6xl text-noir">Enjoy your time working</h1>
@@ -84,7 +87,7 @@
         <div class="mt-12 md:flex-1 flex justify-center"><img src="./Assets/Images/tools.svg" alt=""></div>
     </section> <!--Fin de la 3e section-->
     <!--Debut de la 4e section-->
-    <section class="h-[430px] md:h-[490px] bg-cover bg-[url(/Assets/Images/mongolfière.jpeg)] md:mx-14 md:rounded-4xl">
+    <section class="h-[440px] md:h-[490px] bg-cover bg-[url(/Assets/Images/mongolfière.jpeg)] md:mx-14 md:rounded-4xl">
         <div class="h-full bg-linear pt-10 md:py-18 md:flex md:justify-end md:rounded-4xl">
             <div class="flex flex-col gap-4 mx-8 md:justify-around md:w-1/2">
                 <h1 class="font-bold text-5xl text-blanc md:text-6xl">Problems come and get solved with ease</h1>
@@ -98,9 +101,9 @@
         <div class="gap-8 flex flex-col md:gap-10 md:flex-1 md:px-8">
             <h2 class="text-4xl font-bold md:text-5xl">Improve workflow</h2>
             <div class="flex">
-                <button class="flex-1 border py-2 bg-gray-400 rounded-l-lg">research</button>
-                <button class="flex-1 border">plan</button>
-                <button class="flex-1 border rounded-r-lg ">design</button>
+                <button class="flex-1 border border-bord py-2 bg-bord rounded-l-lg">Research</button>
+                <button class="flex-1 border border-bord">Plan</button>
+                <button class="flex-1 border border-bord rounded-r-lg ">Design</button>
             </div>
             <hp class="text-base m:text-lg md:text-slate-600">Egestas fringilla aliquam leo, habitasse arcu varius lorem
                 elit. Neque <br> pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis <br> at
@@ -113,10 +116,11 @@
     </div>
     <!-- section-six-landing page -->
     <div class="h-[380px] bg-gradient-to-r from-[#312E81] via-[#1E40AF] via-[#1E3A8A] to-[#701A75] md:rounded-3xl mt-8  px-4 md:mx-14 flex flex-col md:flex md:flex-col items-center justify-center gap-8">
-            <div class="flex flex-col items-center md:flex-row"><h2 class="text-4xl font-bold text-white">Join the</h2> <h2 class="text-4xl font-bold text-white">community today</h2></div>
+            <div class="flex flex-col items-center md:flex-row md:gap-2"><h2 class="text-4xl font-bold text-white">Join the</h2> <h2 class="text-4xl font-bold text-white">community today</h2></div>
             <div class="flex flex-col items-center"><p class="text-base text-white">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis</p><h6 class="text-base text-white">ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</h6></div>
-            <button class="flex items-center justify-center gap-2 bg-blue-900 text-white w-3xs h-[58px] rounded-lg">Sign Up Free<img src="./Assets/Images/fleche.svg" alt="arrow"></button>
+            <button class="flex items-center justify-center gap-2 bg-bleu text-blanc w-3xs h-[58px] rounded-lg hover:cursor-pointer hover:bg-blue-800 hover:border">Sign Up Free<img src="./Assets/Images/fleche.svg" alt="arrow"></button>
     </div>
+    <!-- Debut du Footer -->
     <footer class=" md:flex m-5 md:p-10 text-base justify-between">
         <div class="md:flex md:gap-2 md:items-center">
             <div class=" text-[20px] font-bold">magnifico</div>
@@ -129,6 +133,6 @@
             <a>About</a>
             <a>Contact</a>
         </div>
-  </footer>
+  </footer> <!--Fin du Footer-->
 </body>
 </html>
