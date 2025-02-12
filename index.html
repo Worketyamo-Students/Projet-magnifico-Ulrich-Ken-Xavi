@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme{
+            --color-bleu: #2563EB;
+            --color-gris: #F1F5F9;
+            --color-noir: #0F172A;
+            --color-blanc: #FFFFFF;
+            --color-bord: #CBD5E1;
+            --font-roboto: "Roboto";
+            --color-linear: #581C87BF;
+        }
+    </style>
 </head>
-<body>
-    <header class="flex justify-between m-4">
+<body class="font-roboto">
+  <header class="flex justify-between m-4">
         <p class="text-[30px] font-bold font-Roboto">magnifico</p>
         <nav class="hidden md:block md:flex md:w-3/5 md:gap-4 md:justify-center">
             <a class="flex items-center" href="Product">Product <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
@@ -22,7 +34,7 @@
         </div>
         <img class="md:hidden" src="./Assets/Images/menu barre.svg" alt="Menu">
     </header>
-    <footer class="p-5 text-base md:flex md:justify-between">
+    <footer class="p-5 text-base">
         <div class="md:flex md:gap-2 md:items-center">
             <div class=" text-[20px] font-bold">magnifico</div>
             <div class="mt-3 md:mt-0 ">@2023. All rights reserved.</div><br>
@@ -34,6 +46,6 @@
             <p>About</p>
             <p>Contact</p>
         </section>
-    </footer>
+  </footer>
 </body>
 </html>
