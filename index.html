@@ -19,6 +19,21 @@
     </style>
 </head>
 <body class="font-roboto">
+  <header class="flex justify-between m-4">
+        <p class="text-[30px] font-bold font-Roboto">magnifico</p>
+        <nav class="hidden md:block md:flex md:w-3/5 md:gap-4 md:justify-center">
+            <a class="flex items-center" href="Product">Product <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Solutons">Solutons <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Services">Services <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Help Center">Help Center <img src="./image/stat_minus_1_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+            <a class="flex items-center" href="Pricing">Pricing</a>
+        </nav>
+        <div class="hidden md:block md:flex md:gap-2">
+            <button class="w-20">Log in</button> 
+            <button class="flex items-center bg-blue-500 w-36 pl-5 text-sm/5 rounded-lg">Sign Up Free <img src="/image/arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        </div>
+        <img class="md:hidden" src="./Assets/Images/menu barre.svg" alt="Menu">
+    </header>
     <!-- debut de la première section -->
     <section class="m-5 md:flex md:mx-12 md:gap-8 md:items-center">
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
@@ -49,7 +64,6 @@
         </div>
         <div class="mt-12"><img src="/Assets/Images/team_project.svg" alt=""></div>
     </section> <!--Fin de la premiere section-->
-   <!---->
     <section class="m-5 pt-16 md:flex md:flex-row-reverse md:mx-12 md:gap-10 md:items-center">
         <div class="flex flex-col gap-8 md:flex-1 md:mt-8">
             <h1 class="w-4/5 font-bold text-5xl md:text-6xl text-noir">Enjoy your time working</h1>
@@ -77,5 +91,18 @@
             </div>
         </div>
     </section> <!--Fin de la 4e section-->
+    <footer class="p-5 text-base">
+        <div class="md:flex md:gap-2 md:items-center">
+            <div class=" text-[20px] font-bold">magnifico</div>
+            <div class="mt-3 md:mt-0 ">@2023. All rights reserved.</div><br>
+        </div>
+        <section class="flex gap-5 text-base">
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Support</p>
+            <p>About</p>
+            <p>Contact</p>
+        </section>
+  </footer>
 </body>
 </html>
